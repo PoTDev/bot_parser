@@ -8,11 +8,11 @@ class database:
     def check_connection(self, check):
         try:
             # Подключение к существующей базе данных
-            self.connection = mariadb.connect(user="root",
+            self.connection = mariadb.connect(user="",
                                         password="",
-                                        host="localhost",
+                                        host="",
                                         port=3306,
-                                        database="bottelegram")
+                                        database="")
             #self.connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
 
             # Курсор для выполнения операций с базой данных
