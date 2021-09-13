@@ -7,7 +7,7 @@ from database import database
 
 
 #инициализация бота
-token = '1922459733:AAHGujO1EpVhNS1BIhAwWYpfujJoDKOWn_I'
+token = ''
 bot = telebot.TeleBot(token)
 
 
